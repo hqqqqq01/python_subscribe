@@ -17,4 +17,5 @@ def focus_timer(minutes):
     print("\n专注时间结束！")
 
 # 设置专注时间为25分钟
-focus_timer(25)
+minutes = int(input("输入专注时间:"))
+focus_timer(minutes)
